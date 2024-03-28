@@ -1,0 +1,194 @@
+body {
+    background-color: #F5C061;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+/* .navHeader */
+
+.navHeader {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .retourAccueil */
+
+.retourAccueil {
+    display: flex;
+    width: fit-content;
+    font-size: 26px;
+    letter-spacing: 4px;
+    margin-top: 22px;
+    color: black;
+}
+
+.retourAccueil:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.arrowLeftHeader {
+    margin-top: 8px;
+    width: 50px;
+    height: 70px;
+}
+
+.circleContainer {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -145px;
+    border: 5px solid #F8DFB2;
+}
+
+.circleContainer img {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+/* .rightSideHeader */
+
+.rightSideHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.divFlag {
+    display: flex;
+    justify-content: flex-end;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.traductionFr {
+    width: 30px;
+    height: 30px;
+}
+
+.traductionFr:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.traductionEn {
+    width: 30px;
+    height: 30px;
+}
+
+.traductionEn:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.meContacter {
+    border: 2px solid white;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(211, 211, 211, 0.2);
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+.meContacter:hover {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+/* Main */
+
+main {
+    display: flex;
+    margin-top: 50px;
+}
+
+.myPhoto {
+    border-radius: 10px;
+    border: 2px solid #F8DFB2;
+}
+
+#aProposTitreText {
+    margin-left: 50px;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    margin-top: 10px;
+}
+
+.soulignementTitrePrincipal {
+    width: 100px;
+    height: 2px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+#aProposText {
+    font-size: 26px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.envoiVersCV {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #EFB83E;
+    color: white;
+    width: 300px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.envoiVersCV:hover {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.envoiVersCompetences {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F0A03E;
+    color: white;
+    width: 300px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.envoiVersCompetences:hover {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.envoiVersProjets {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F0813E;
+    color: white;
+    width: 300px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.envoiVersProjets:hover {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
